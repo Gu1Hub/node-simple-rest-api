@@ -1,0 +1,30 @@
+{
+  "name": "node-simple-rest-api",
+  "version": "0.0.1",
+  "description": "Simple demo API REST",
+  "main": "app/server.js",
+  "scripts": {
+    "test": "mocha test/test-run-server",
+    "start": "node app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gu1hub"
+  },
+  "keywords": [
+    "demo",
+    "API",
+    "REST",
+    "express",
+    "JSON"
+  ],
+  "author": "Guillaume LEFEBVRE",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "mocha": "^3.3.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
+}
